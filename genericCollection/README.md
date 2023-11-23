@@ -25,7 +25,7 @@
     - [LinkedList 활용](https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/list/LinkedListEx.java)
 
 - **HashSet\<E\> :** 데이터의 순서가 없으며 데이터의 중복을 허용하지 않는다.
-  - [HashSet 활용]()
+  - [HashSet 활용](https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/hashSet/HashSetEx.java)
 
 - **Iterator\<E\> :** `Iterator<데이터타입> iterator명 = 컬렉션.iterator();` 형태로 사용한다.  `list.get(값);` 으로 원하는 값을 가져올 수 있는데 Iterator를 사용하는 이유는 **모든 컬렉션 프레임워크에 공통으로 사용 가능**하기 때문이다. 컬렉션 프레임워크에서 쉽게 값을 가져오고 제거할 수 있다. 따라서 **3개의 메소드만 알면 되어서 사용하기 매우 쉽다.**
   - `Iterator.hasNext()` : Iterator 안에 다음 값이 들어있는지 확인. 들었으면 true, 안들었음 false
@@ -35,8 +35,8 @@
   그리고 당연히 단점도 있다. 처음부터 끝까지의 단방향 반복만 가능하고, 값을 변경하거나 추가가 불가능하고, 대량의 데이터를 제어할 때 속도가 느리다.
 
   - **Iterator\<E\>  활용**
-    - [Iterator 이용(Vector의 모든 요소를 출력하고 합 구하기)](https://github.com/1Dohyeon/Study-Java/tree/main/genericCollection#)
-    - [Iterator 이용(HashSet의 음수 값 제거 & 합 구하기)](https://github.com/1Dohyeon/Study-Java/tree/main/genericCollection#)
+    - [Iterator 이용(Vector의 모든 요소를 출력하고 합 구하기)](https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/iterator/IteratorEx.java)
+    - [Iterator 이용(HashSet의 음수 값 제거 & 합 구하기)](https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/iterator/IteratorEx2.java)
 
 - **HashMap\<K, V\> :** Key와 Value의 쌍으로 구성되는 요소를 다루는 컬렉션. Key는 중복되면 안되고, 삽입-삭제-검색이 빠르다.
-  - [HashMap<String, String> 활용(객체 저장, 학생 정보 관리)](https://github.com/1Dohyeon/Study-Java/tree/main/genericCollection#)
+  - [HashMap<String, String> 활용(객체 저장, 학생 정보 관리)](https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/hashMap/HashMapEx.java)
