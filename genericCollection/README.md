@@ -6,6 +6,8 @@ Generic Collection은 int, boolean, char 등의 기본 타입으로 데이터를 저장하는 것�
 
 <br/>
 <br/>
+
+### LIST
 - Stack<E> : <a href="https://github.com/1Dohyeon/Study-DataStructure/tree/master/02_stack_and_queue_with_java">자료구조-스택</a>
   - Stack<String> 활용
   - Stack<Integer> 활용
