@@ -201,7 +201,6 @@ String b = new String("Hello");
 - `1)` 에서 `a` 와 `b` 는 같은 리터럴 테이블을 가리키지만, `2)` 에서는 서로 다른 힙 메모리를 가리킨다.
 
 **주요 메서드**
-![[Pasted image 20231109195420.png]]
 - `+` 말고 `.concat()` 으로 문자열을 연결할 수 있다. 이때 **새로운 문자열을 생성하는 것**이다.
 - `trim()` 은 문자열 앞 뒤 공백 문자를 제거한 문자열을 리턴한다.
 - `char charAt(int index)` 는 문자열의 문자에 접근한다.
@@ -257,8 +256,6 @@ C++
 **StringBuffer 클래스**
 - 가변 크기의 문자열 저장 클래스
 - 생성 : `StringBuffer sb = new StringBuffer("java");`
-- 주요 메서드
-  ![[Pasted image 20231109203414.png]]
 
 **StringBuffer 클래스 메서드 활용**
 ```
@@ -298,8 +295,6 @@ String query = "name=kitae&addr=seoul&age=21";
 StringTokenizer st = new StringTokenizer(query, "&");
 ```
 
-**생성자와 주요 메서드**
-![[Pasted image 20231109203817.png]]
 
 **StringTokenizer 클래스 메소드 활용**
 ```
