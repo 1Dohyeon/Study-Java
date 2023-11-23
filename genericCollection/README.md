@@ -14,10 +14,11 @@ Generic Collection은 int, boolean, char 등의 기본 타입으로 데이터를 저장하는 것�
 - Vector<E>
   - Vector<Integer> 활용
   - Vector<Point(= class 객체)> 활용
-- ArrayList<E>
-  - ArrayList<String> 활용
-- LinkedList<E>
-  - LinkedList<String> 활용 - Queue
+- List :  <a href="https://github.com/1Dohyeon/Study-DataStructure/tree/master/01_Lists_with_py">자료구조-리스트</a>
+  - ArrayList<E> : <a href="https://github.com/1Dohyeon/Study-DataStructure/blob/master/01_Lists_with_py/01_DynamicArray.py">자료구조-동적Array-코드</a>
+    - ArrayList<String> 활용
+  - LinkedList<E> : <a href="https://github.com/1Dohyeon/Study-DataStructure/blob/master/01_Lists_with_py/02_SinglyLinkedList.py">자료구조-단일연결리스트-코드</a>
+    - LinkedList<String> 활용 - Queue
 - HashSet<E>
   - HashSet 활용
 - Iterator<E>
