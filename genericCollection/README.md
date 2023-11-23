@@ -31,7 +31,8 @@
   - `Iterator.hasNext()` : Iterator 안에 다음 값이 들어있는지 확인. 들었으면 true, 안들었음 false
   - `Iterator.next()` : Iterator의 다음 값 가져오기
   - `Iterator.remove()` : iterator에서 next() 시에 가져왔던 값을 컬렉션(List, Set, Map) 등에서 삭제. 반드시 next() 후에 사용해야 함.
-    그리고 당연히 단점도 있다. 처음부터 끝까지의 단방향 반복만 가능하고, 값을 변경하거나 추가가 불가능하고, 대량의 데이터를 제어할 때 속도가 느리다.
+
+  그리고 당연히 단점도 있다. 처음부터 끝까지의 단방향 반복만 가능하고, 값을 변경하거나 추가가 불가능하고, 대량의 데이터를 제어할 때 속도가 느리다.
 
   - **Iterator\<E\>  활용**
     - [Iterator 이용(Vector의 모든 요소를 출력하고 합 구하기)](https://github.com/1Dohyeon/Study-Java/tree/main/genericCollection#)
