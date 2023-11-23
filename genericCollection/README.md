@@ -10,10 +10,10 @@
 
 ### LIST
 - Stack\<E\> : <a href="https://github.com/1Dohyeon/Study-DataStructure/tree/master/02_stack_and_queue_with_java">자료구조-스택-설명</a>
-  - <a href="#">Stack\<String\> 활용</a>
+  - <a href="https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/stack/StringStack.java">Stack\<String\> 활용</a>
 - Vector\<E\>
-  - <a href="#">Vector\<Integer\> 활용</a>
-  - <a href="#">Vector\<Point(= class 객체)\> 활용</a>
+  - <a href="https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/vector/VectorInteger.java">Vector\<Integer\> 활용</a>
+  - <a href="https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/vector/VectorPoint.java">Vector\<Point(= class 객체)\> 활용</a>
 - List :  <a href="https://github.com/1Dohyeon/Study-DataStructure/tree/master/01_Lists_with_py">자료구조-리스트-설명</a>
   - ArrayList\<E\> : <a href="https://github.com/1Dohyeon/Study-DataStructure/blob/master/01_Lists_with_py/01_DynamicArray.py">자료구조-동적Array-코드</a>
     - <a href="#">ArrayList<String> 활용</a>
