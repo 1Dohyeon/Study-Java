@@ -20,9 +20,9 @@
 
 - **List\<E\> :** [자료구조-리스트-설명]
   - ArrayList\<E\> : [자료구조-ArrayList-코드](https://github.com/1Dohyeon/Study-DataStructure/blob/master/01_Lists_with_py/01_DynamicArray.py)
-    - [ArrayList 활용]()
+    - [ArrayList 활용](https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/list/ArrayListEx.java)
   - LinkedList\<E\> : [자료구조-LinkedList-코드](https://github.com/1Dohyeon/Study-DataStructure/blob/master/01_Lists_with_py/02_SinglyLinkedList.py)
-    - [LinkedList 활용]()
+    - [LinkedList 활용](https://github.com/1Dohyeon/Study-Java/blob/main/genericCollection/list/LinkedListEx.java)
 
 - **HashSet\<E\> :** 데이터의 순서가 없으며 데이터의 중복을 허용하지 않는다.
   - [HashSet 활용]()
