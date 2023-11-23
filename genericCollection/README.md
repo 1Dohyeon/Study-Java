@@ -1,6 +1,7 @@
-Collection이란 요소(element) 객체들의 저장소이다. 따라서 객체들의 컨테이너라고도 불린다.
-<br/>
-Generic Collection은 int, boolean, char 등의 기본 타입으로 데이터를 저장하는 것이 아니라, 제너릭 타입 매개변수를 이용하여 여러 종류의 타입을 다룰 수 있는 collection이다.
+**Collection**이란 요소(element) 객체들의 저장소이다. 
+따라서 객체들의 컨테이너라고도 불린다.
+**Generic Collection**은 int, boolean, char 등의 기본 타입으로 데이터를 저장하는 것이 아니라, 
+제너릭 타입 매개변수를 이용하여 여러 종류의 타입을 다룰 수 있는 collection이다.
 <br/>
 > Generic Type : \<E\>, \<T\>, \<K\>, \<V\>
 
