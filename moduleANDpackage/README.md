@@ -73,8 +73,8 @@ Point@15db9742
 ### 모듈(module)
 
 - 여러 패키지와 이미지 등의 자원을 모아 놓은 컨테이너(JDK 9부터 생김)
-    - 자바 api를 여러 모듈(99개)로 분할하여 응용 프로그램의 실행에 적합한 모듈로만 실행 환경을 구축하기 위해서
-    - 메모리가 열악한 소형 기기에도 응용프로그램 실행 가능
+  - 자바 api를 여러 모듈(99개)로 분할하여 응용 프로그램의 실행에 적합한 모듈로만 실행 환경을 구축하기 위해서
+  - 메모리가 열악한 소형 기기에도 응용프로그램 실행 가능
 - 모듈 파일(.jmod)로 저장
 - 기존에는 rt.jar의 단일체에 API의 패키지들을 모두 담았었음 -> 파일을 버리고 API를 99개의 모듈 파일로 나눔
 - 디스크 사용량과 실행 시간 메모리 감소됨
@@ -201,6 +201,8 @@ String b = new String("Hello");
 - `1)` 에서 `a` 와 `b` 는 같은 리터럴 테이블을 가리키지만, `2)` 에서는 서로 다른 힙 메모리를 가리킨다.
 
 **주요 메서드**
+![[Pasted image 20231109195420.png]]
+- `String.charAt(i)` 는 `char` 타입으로 i번째 인덱스의 문자 값을 리턴한다.
 - `+` 말고 `.concat()` 으로 문자열을 연결할 수 있다. 이때 **새로운 문자열을 생성하는 것**이다.
 - `trim()` 은 문자열 앞 뒤 공백 문자를 제거한 문자열을 리턴한다.
 - `char charAt(int index)` 는 문자열의 문자에 접근한다.
@@ -256,6 +258,12 @@ C++
 **StringBuffer 클래스**
 - 가변 크기의 문자열 저장 클래스
 - 생성 : `StringBuffer sb = new StringBuffer("java");`
+- 주요 메서드
+  - `StringBuffer.append(String str)` 는 버퍼 뒤에 str을 붙임.
+  - `capacity()` 는 `int`타입으로 리턴되며 버퍼의 크기를 반환.
+  - `delete(int start, int end)` 는 `start`에서 `end` 앞까지의 문자열 삭제.
+  - `insert(int offset, String str)` 는 `str`을 `offset`위치에 삽입.
+  - `replace(int start, int end, String str)` `start`~`end`앞까지 str로 대체.
 
 **StringBuffer 클래스 메서드 활용**
 ```
@@ -295,6 +303,13 @@ String query = "name=kitae&addr=seoul&age=21";
 StringTokenizer st = new StringTokenizer(query, "&");
 ```
 
+**생성자와 주요 메서드**
+- `StringTokenizer(String str)` : 구분 문자(`" "`)로 분리.
+- `StringTokenizer(String str, "/")` : `"/"` 로 `str`을 분리하여 토큰화.
+- `StringTokenizer(String str, "/", boolean b)` : `b=true`이면 분리한 문자도 토큰에 포함.
+- `int countTokens()`
+- `boolean hasMoreTokens()` : 다음 토큰이 있으면 true
+- `String nextToken()` : 다음 토큰 리턴
 
 **StringTokenizer 클래스 메소드 활용**
 ```
@@ -381,5 +396,3 @@ public static void main(String[] args) {
 	printCalendar("처음 데이트한 날은 ", firstDate); 
 } 
 ```
-
-
